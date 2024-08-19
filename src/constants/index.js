@@ -73,9 +73,9 @@ export const services = [
 export const reviews = [
     {
         imgURL: customer1,
-        customerName: 'Morich Brown',
+        customerName: 'Jacqueline Landi',
         rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        feedback: "Navigating through the advancement of Quantum has exposed me to other crucial technologies the industry utilizes."
     },
     {
         imgURL: customer2,
