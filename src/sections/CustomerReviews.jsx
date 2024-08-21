@@ -6,8 +6,7 @@ const CustomerReviews = () => {
     <section className='max-container'>
       <h3 className='font-palanquin text-center text-4xl font-bold'>
         Here is our
-        <span className='text-coral-red'> Team </span>
-        
+        <span className='text-cyan-500'> Team </span>
       </h3>
       <p className='m-auto mt-4 max-w-lg  text-center info-text'>
         Meet the Qcc team 

@@ -1,5 +1,5 @@
 import { copyrightSign } from "../assets/icons";
-import { footerLogo } from "../assets/images";
+import { headerLogo } from "../assets/images";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => {
@@ -9,7 +9,7 @@ const Footer = () => {
         <div className='flex flex-col items-start'>
           <a href='/'>
             <img
-              src={footerLogo}
+              src={headerLogo}
               alt='logo'
               width={150}
               height={46}
@@ -17,8 +17,8 @@ const Footer = () => {
             />
           </a>
           <p className='mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm'>
-            Get shoes ready for the new term at your nearest Nike store. Find
-            Your perfect Size In Store. Get Rewards
+          Explore the quantum frontier with us. Innovate, learn, and shape the future of computing.
+           Join the Quantum Computing Club today and be part of the revolution.
           </p>
           <div className='flex items-center gap-5 mt-8'>
             {socialMedia.map((icon) => (

@@ -1,32 +1,32 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import {  shoe4, shoe5, shoe6, shoe7, jackie, jordi, perera, habib, hayden, hero1, hero2, hero3 } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
     { href: "#about-us", label: "About Us" },
-    { href: "#products", label: "Products" },
+    { href: "#PopularProducts", label: "Projects" },
     { href: "#contact-us", label: "Contact Us" },
 ];
 
 export const shoes = [
     {
-        thumbnail: thumbnailShoe1,
-        bigShoe: bigShoe1,
+        thumbnail: hero1,
+        bigShoe: hero1,
     },
     {
-        thumbnail: thumbnailShoe2,
-        bigShoe: bigShoe2,
+        thumbnail: hero2,
+        bigShoe: hero2,
     },
     {
-        thumbnail: thumbnailShoe3,
-        bigShoe: bigShoe3,
+        thumbnail: hero3,
+        bigShoe: hero3,
     },
 ];
 
 export const statistics = [
-    { value: '1k+', label: 'Brands' },
-    { value: '500+', label: 'Shops' },
-    { value: '250k+', label: 'Customers' },
+    { value: '450,000+', label: 'Users' },
+    { value: '100+', label: 'Qubits' },
+    { value: ' up to 1000 times ', label: 'Energy Efficiency' },
 ];
 
 export const products = [
@@ -72,17 +72,36 @@ export const services = [
 
 export const reviews = [
     {
-        imgURL: customer1,
+        imgURL: perera,
+        customerName: 'Gracelia Perera',
+        rating: 4.5,
+        feedback: "Navigating through the advancement of Quantum has exposed me to other crucial technologies the industry utilizes."
+    },
+    {
+        imgURL: jordi,
+        customerName: 'Jordi Banuelos',
+        rating: 4.5,
+        feedback: "I'm currently a junior at Northeastern Illinois University, majoring in Computer Science. I have a passion for technology and I'm always looking for ways to learn more."
+    },
+    {
+        imgURL: jackie,
         customerName: 'Jacqueline Landi',
         rating: 4.5,
         feedback: "Navigating through the advancement of Quantum has exposed me to other crucial technologies the industry utilizes."
     },
     {
-        imgURL: customer2,
-        customerName: 'Lota Mongeskar',
+        imgURL: habib,
+        customerName: 'Habib jones',
         rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
-    }
+        feedback: "Navigating through the advancement of Quantum has exposed me to other crucial technologies the industry utilizes."
+    },
+    {
+        imgURL: hayden,
+        customerName: 'Hayden bill',
+        rating: 4.5,
+        feedback: "Navigating through the advancement of Quantum has exposed me to other crucial technologies the industry utilizes."
+    },
+
 ];
 
 
@@ -111,7 +130,7 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
+            { name: "Quantum@neiu.com", link: "Quantum@neiu.com" },
             { name: "+92554862354", link: "tel:+92554862354" },
         ],
     },

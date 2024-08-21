@@ -2,35 +2,38 @@ import { useState } from "react";
 
 import { shoes, statistics } from "../constants";
 import { Button, ShoeCard } from "../components";
-import { bigShoe1 } from "../assets/images";
+import { hero1 } from "../assets/images";
 import { arrowRight } from "../assets/icons";
 
 const Hero = () => {
-  const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
+   const [bigShoeImg, setBigShoeImg] = useState(hero1);
 
   return (
     <section
       id='home'
       className='w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container'
     >
-      <div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x pt-28'>
-        <p className='text-xl font-montserrat text-coral-red'>
-          Our Summer collections
+      <div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x pt-40'>
+        <p className='text-3xl font-montserrat text-cyan-500'>
+          Quantum Computing Club Website
         </p>
-
+        <p className="text-2xl max-xl:padding-x font-montserrat text-cyan-500">Unlocking the Future, One Qubit at a Time 
+        </p>
         <h1 className='mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold'>
           <span className='xl:bg-white xl:whitespace-nowrap relative z-10 pr-10'>
-            The New Arrival
+            What is QCC ??
           </span>
           <br />
-          <span className='text-coral-red inline-block mt-3'>Nike</span> Shoes
+          <span className='text-cyan-500 inline-block mt-3'>Quantum</span> Computing Club
         </h1>
         <p className='font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>
-          Discover stylish Nike arrivals, quality comfort, and innovation for
-          your active life.
+        The Quantum Computing Club is a community of students, researchers, and enthusiasts dedicated 
+        to exploring and advancing the field of quantum computing. Our mission is to demystify 
+        quantum mechanics and its applications in computing, while fostering an environment of learning,
+        collaboration, and innovation.
         </p>
 
-        <Button label='Shop now' iconURL={arrowRight} />
+        <Button label='Learn More' iconURL={arrowRight} />
 
         <div className='flex justify-start items-start flex-wrap w-full mt-20 gap-16'>
           {statistics.map((stat, index) => (
